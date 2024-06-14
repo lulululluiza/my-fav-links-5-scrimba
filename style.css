@@ -1,0 +1,65 @@
+:root {
+	--main-color: #49C2F8;
+	--link-color: #0979DB;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-width: 500px;
+	padding: 15px;
+}
+
+.mainInput {
+	width: 500px;
+	margin-bottom: 5px;
+	padding: 5px;
+	border: 3px solid var(--main-color);
+}
+
+.mainInput:focus {
+	outline: 1px solid var(--main-color);
+}
+
+.optionsBtn {
+	width: 500px;
+	display: flex;
+	gap: 10px;
+	justify-content: flex-start;
+	margin-bottom: 15px;
+}
+
+button {
+	border: 1px solid var(--main-color);
+	padding: 5px 10px;
+	font-weight: bold;
+}
+
+
+#saveInputBtn, #saveTabBtn {
+	background-color: var(--main-color);
+	color: white;
+}
+
+#clearBtn, #clearSelectedBtn {
+	background-color: white;
+	color: var(--main-color);
+}
+
+li {
+	display: flex;
+	align-items: flex-start;
+	gap: 2px;
+}
+
+
+li input {
+	margin-top: 4px;
+}
+
+a {
+	color: var(--link-color); 
+}
